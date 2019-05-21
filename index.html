@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Henok's first Website!</title>
+                <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size:1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(244, 211, 65);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(65, 68, 244);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+
+    </head>
+
+    <body>
+         <div id="all-contents"> 
+            <nav>
+                   <header>Henok's First Website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                    <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/60534306_105549840689800_3521971558945914880_o.jpg?_nc_cat=100&_nc_ht=scontent-dfw5-2.xx&oh=87f5da50014788e74568e289dbe70732&oe=5D96AFFA">
+                </div>
+
+                <div class="content">
+                
+                <h1>Henok Samuel</h1>
+                <p>Was born in rasied in Atlanta, Georgia. And now I am a current student at Operation Spark!</p>
+                <section class="interests">
+                      <header>Interests</header>
+                        <ul>
+                            <li>Basketball</li>
+                            <li>Podcasts</li>
+                            <li>Music</li>
+                        </ul>
+                    </section>
+        </div>
+         </main>
+    </body>
+</html>
