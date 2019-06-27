@@ -1,5 +1,5 @@
 {
-  "name": "first-website",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "dependencies": {
@@ -12,6 +12,6 @@
   "scripts": {
     "pretest": "npm install",
     "test": "mocha ./test/index.spec.js || :",
-    "posttest": "rm -rf ../first-website"
+    "posttest": "rm -rf ../portfolio-page"
   }
 }
